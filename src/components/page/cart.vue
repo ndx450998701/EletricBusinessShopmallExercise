@@ -54,7 +54,7 @@
             this.getCartInfo()
         },
         methods: {
-            getCartInfo() {
+            getCartInfo() { 
                 if(localStorage.cartInfo){
                     this.cartInfo = JSON.parse(localStorage.cartInfo)
                 }

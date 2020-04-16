@@ -15,7 +15,7 @@
                 return numToMoney(money)
             }
         },
-        methods: {
+        methods: { 
             goGoodsDetails () {
                 this.$router.push({name:'goodsDetails',query:{goodsId:this.goodsId}})
             }

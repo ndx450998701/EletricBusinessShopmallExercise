@@ -10,4 +10,4 @@ const URL = {
     getGoodsByCategorySubList:koaURL+'goods/getGoodsByCategorySubList',//利用商品大类ID获取商品小类信息
 
 }
-module.exports = URL
+module.exports = URL 

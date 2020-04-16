@@ -42,7 +42,7 @@ router.post('/login',async(ctx) => {
                 ctx.body = {code:200,message:isMatch}
             })
             .catch(error => {
-                //查询失败，返回异常
+                //查询失败，返回异常 
                 ctx.body={code:500,message:error}
             })
         }else{

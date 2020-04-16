@@ -9,7 +9,7 @@ exports.initSchemas = () => {
     //并把改方法暴露出去，在index。js里头使用。
 }
 
-let reconnectTimes = 0;
+let reconnectTimes = 0; 
 
 return new Promise((resolve,reject) => {
     exports.connect = () => {

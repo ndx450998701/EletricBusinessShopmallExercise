@@ -44,7 +44,7 @@
             }
         },
         methods: {
-            goGoodsDetails (ID) {
+            goGoodsDetails (ID) { 
                 this.$router.push({name:'goodsDetails',query:{goodsId:ID}})
             },
         },

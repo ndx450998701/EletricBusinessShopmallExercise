@@ -42,7 +42,7 @@ import { Toast } from 'vant'
             goLogin(){
                 this.$router.push({name:'login'})
             },
-            goRegister(){
+            goRegister(){  
                 this.$router.push({name:'register'})
             },
             clickLogoff(){

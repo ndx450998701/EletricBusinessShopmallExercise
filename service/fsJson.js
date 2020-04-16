@@ -10,7 +10,7 @@ fs.readFile('./data_json/goods.json','utf8',(err,data)=>{
             pushData.push(value)
             console.log(value.NAME)
         }
-    })
+    }) 
     console.log(amount)
     
     fs.writeFile('./data_json/pureGoods.json',JSON.stringify(pushData),err=>{

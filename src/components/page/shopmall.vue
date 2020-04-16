@@ -118,7 +118,7 @@
                 url:URL.shoppingMall,
                 methods: 'get',
             })
-            .then(response => {
+            .then(response => { 
                 console.log(response)
                 if(response.status==200){
                     this.swipeImg = response.data.data.slides

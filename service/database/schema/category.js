@@ -10,6 +10,6 @@ const categorySchema = new Schema({
     SORT:Number,
     COMMENTS:String
 })
-
+ 
 //发布模型
 mongoose.model('category',categorySchema)

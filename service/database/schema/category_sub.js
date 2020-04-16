@@ -10,5 +10,5 @@ const categorySubSchema = new Schema({
     SORT:Number
 })
 
-//发布模型
+//发布模型 
 mongoose.model('categorySub',categorySubSchema)

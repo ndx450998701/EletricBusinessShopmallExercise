@@ -31,7 +31,7 @@
                 <p>还没有账号？点击注册账号</p>
             </div>
         </div>
-    </div>
+    </div> 
 </template>
 
 <script>

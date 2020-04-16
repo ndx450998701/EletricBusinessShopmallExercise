@@ -106,7 +106,7 @@ router.post('/getCategorySubList',async(ctx) => {
 //利用商品小类ID获取所有该类下的产品
 router.post('/getGoodsByCategorySubList',async(ctx) => {
     //测试固定写死ID并且采用get方法简化调试，后续会改回post
-    try{
+    try{ 
         //let categorySubId = "2c9f6c946016ea9b016016f79c8e0000"
         let categorySubId = ctx.request.body.categorySubId//从前端获取商品小类
         let presentPage = ctx.request.body.presentPage//从前端获取目前分页页数

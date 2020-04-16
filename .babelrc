@@ -13,4 +13,4 @@
     "transform-runtime",
     ["import",{"libraryName":"vant","style":true}]
   ]
-}
+} 

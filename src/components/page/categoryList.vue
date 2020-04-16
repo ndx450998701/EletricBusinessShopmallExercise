@@ -115,7 +115,7 @@
                 .catch(error => {
                     console.log(error)
                 })
-            },
+            }, 
             //点击商品大类触发的事件。1、将index变成被点击那项的索引，实现被点击反白效果
             //2、点击后获取被点击大类的商品小类信息 3、初始化子类商品页数和列表，能否加载
             categoryClicked(index,categoryID){

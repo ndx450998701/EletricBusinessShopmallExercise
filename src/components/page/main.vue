@@ -13,7 +13,7 @@
                 <van-tabbar-item icon='manager'>个人中心</van-tabbar-item>
             </van-tabbar>
         </div>
-    </div>
+    </div> 
 </template>
 
 <script>

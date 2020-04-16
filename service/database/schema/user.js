@@ -20,7 +20,7 @@ userSchema.pre('save',function(next){
             if(err) return next(err)
             this.password = hash
             next()
-        })
+        }) 
     })
 })
 //对比密码的方法

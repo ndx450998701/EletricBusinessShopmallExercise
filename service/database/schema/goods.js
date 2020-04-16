@@ -12,7 +12,7 @@ const goodsSchema = new Schema({
     NAME:String,
     ORI_PRICE:Number,
     PRESENT_PRICE:Number,
-    AMOUNT:Number,
+    AMOUNT:Number, 
     DETAIL:String,
     BRIEF:String,
     SALES_COUNT:Number,

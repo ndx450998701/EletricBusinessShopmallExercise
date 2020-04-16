@@ -42,7 +42,7 @@
     import URL from '@/servicesAPI.config.js'
     export default {
         data() {
-            return {
+            return { 
                 username:'',
                 password:'',
                 onloading:false,

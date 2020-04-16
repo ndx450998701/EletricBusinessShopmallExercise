@@ -54,7 +54,7 @@
             this.goodsId = this.$route.query.goodsId
             this.getGoodDetail()
         },
-        methods: {
+        methods: { 
             getGoodDetail () {
                 axios({
                     url:url.getGoodsDetails,

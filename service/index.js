@@ -28,7 +28,7 @@ app.use(router.allowedMethods())
     // let userone = new user ({userName:'ndx231',password:'111111'}) //模型的实例化
     // userone.save().then(() => { //存储该实例，并在此之后在控制台提醒
     //     console.log('**************用户数据插入成功************')
-    // })
+    // }) 
     // let userSearch = await user.findOne({})
     // console.log('-------------------------')
     // console.log(userSearch)
